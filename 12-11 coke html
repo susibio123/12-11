@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Seatwork No.5</title>
+	<script type="text/javascript" src="index2.js"></script>
+</head>
+<body>
+	<label>Amount:</label><br>
+
+	<input type="text" id="value"><br><br><br>
+	<input type="button" value="350ml" onclick="I()">
+	<input type="button" value="450ml" onclick="LOVE()">
+	<input type="button" value="750ml" onclick="YOU()">
+	<hr>
+	<h3 id="left">Insert Amountvalue</h3>
+</body>
+</html>
