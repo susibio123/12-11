@@ -1,0 +1,51 @@
+function I()
+{
+	var a=document.getElementById('value').value;
+	a=Number(a);
+	if ((a>=25)==true)
+	{
+		var b=a-25;
+		document.getElementById('left').innerHTML="Thank you for Purchasing: "+b;
+		alert('Have a nice day!')
+	}
+	else
+	{
+		var b=25-a;
+		alert('Your amount is not enough!!');
+		document.getElementById('left').innerHTML="Your money needs "+b+" to avail this one";
+	}
+}
+function LOVE()
+{
+	var a=document.getElementById('value').value;
+	a=Number(a);
+	if ((a>=30)==true)
+	{
+		var b=a-30;
+		document.getElementById('left').innerHTML="Thank you for Purchasing : "+b;
+		alert('Have a nice day!')
+	}
+	else
+	{
+		var b=30-a;
+		alert('Your amount is not enough!!');
+		document.getElementById('left').innerHTML="Your money needs "+b+" to avail this one";
+	}
+}
+function YOU()
+{
+	var a=document.getElementById('value').value;
+	a=Number(a);
+	if ((a>=50)==true)
+	{
+		var b=a-50;
+		document.getElementById('left').innerHTML="Thank you for Purchasing : "+b;
+		alert('Have a nice day!')
+	}
+	else
+	{
+		var b=50-a;
+		alert('Your amount is not enough!!');
+		document.getElementById('left').innerHTML="Your money needs "+b+" to avail this one";
+	}
+}
